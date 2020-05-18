@@ -1,3 +1,0 @@
-python3 -m http.server 8888
-
-cd /mnt/c/Users/User Pc/Desktop/italy_aging_d3/italy_aging_d3
