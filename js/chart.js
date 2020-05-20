@@ -1,9 +1,3 @@
-/**
- * https://developer.mozilla.org/it/docs/Web/SVG/Element
- * Created by vdidonato on 3/24/14.
- * Updated to v5 by titto on 4/22/20.
- */
-
 //Margine dal
 var margin = {top: 20, right: 20, bottom: 30, left: 40};
 
