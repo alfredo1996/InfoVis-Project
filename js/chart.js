@@ -1,4 +1,4 @@
-//Margine dal
+//Margine dallo schermo
 var margin = {top: 20, right: 20, bottom: 30, left: 40};
 
 //Grandezza dello schermo
@@ -36,7 +36,6 @@ var svg = d3.select("body")
 
 //Funzione che disegna gli assi dentro il contenitore SVG
 //Portandoli tutti al centro dello schermo
-
 function drawAxes(){
 
     //Primo Asse
@@ -132,7 +131,8 @@ function drawPath(input){
         .style("stroke", "red")
         .style("stroke-width",3)
         .attr("fill","None")
-
+	
+    //Prendiamo la lunghezza del path per animarlo
     var totalLength1 = path1.node().getTotalLength();
 
         path1
@@ -451,6 +451,7 @@ function createPointAxis(input){
 
 }
 
+//Carichiamo il JSON 
 d3.json("data/dataset.json")
 	.then(function(data) {
         drawAxes()
